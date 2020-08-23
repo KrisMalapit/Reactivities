@@ -34,12 +34,12 @@ class App extends Component {
   <List>
 
 
-{
-            this.state.values.map((value:any)=>(
+        {
+          this.state.values.map((value:any)=>(
 
-              <List.Item key={value.id}>{value.name}</List.Item>
-            ))
-            }
+            <List.Item key={value.id}>{value.name}</List.Item>
+          ))
+        }
 
 
   </List>
